@@ -21,5 +21,8 @@
   ],
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "os-tmpdir": "^1.0.0"
+  }
 }
