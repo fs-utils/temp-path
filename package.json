@@ -23,6 +23,6 @@
     "index.js"
   ],
   "dependencies": {
-    "os-tmpdir": "^1.0.0"
+    "os-tmpdir": "1"
   }
 }
