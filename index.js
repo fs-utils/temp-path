@@ -1,8 +1,6 @@
 
 var path = require('path')
-var os = require('os')
-
-var tmpdir = os.tmpdir ? os.tmpdir() : os.tmpDir()
+var tmpdir = require('os-tmpdir')()
 
 module.exports = function () {
   return path.join(tmpdir, random() + random())
